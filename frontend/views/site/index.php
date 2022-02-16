@@ -9,7 +9,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/slider-01.jpg" class="d-block w-100 rasm" alt="...">
+          <img src="images/maktab.jpg" class="d-block w-100 rasm" alt="...">
         </div>
        <?
         foreach ($slider as $slider_key) {
@@ -127,19 +127,19 @@
             <div class="row text-left stat-wrap">
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-study"></i></span>
-                    <p class="stat_count">12000</p>
+                    <p class="stat_count">508</p>
                     <h3>O'quvchilar</h3>
                 </div><!-- end col -->
 
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-online"></i></span>
-                    <p class="stat_count">240</p>
+                    <p class="stat_count">39</p>
                     <h3>O'qituvchilar</h3>
                 </div><!-- end col -->
 
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-years"></i></span>
-                    <p class="stat_count">55</p>
+                    <p class="stat_count">24</p>
                     <h3>Bitiruvchilar</h3>
                 </div><!-- end col -->
             </div><!-- end row -->
@@ -221,11 +221,10 @@
         </div><!-- end container -->
     </div><!-- end section -->
 
-    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/parallax_04.jpg');">
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/maktab.jpg');">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Testimonials</h3>
-                <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <h3>Rahbarlar</h3>
             </div><!-- end title -->
 
             <div class="row">
@@ -233,12 +232,12 @@
                     <div class="testi-carousel owl-carousel owl-theme">
                         <div class="testimonial clearfix">
                             <div class="testi-meta">
-                                <img src="images/testi_01.png" alt="" class="img-fluid">
-                                <h4>James Fernando </h4>
+                                <img src="images/QWE.jpg" alt="" class="img-fluid" style="border-radius: 50px;">
+                                <h4>Tuxtayeva Gulandom Dilmuratovna</h4>
                             </div>
                             <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                                <h3><i class="fa fa-quote-left"></i>Samarqand shahar 66-maktab direktori</h3>
+                                <p class="lead"></p>
                             </div>
                             <!-- end testi-meta -->
                         </div>
@@ -246,12 +245,11 @@
 
                         <div class="testimonial clearfix">
                             <div class="testi-meta">
-                                <img src="images/testi_02.png" alt="" class="img-fluid">
-                                <h4>Jacques Philips </h4>
+                                <img src="images/QWER.jpg" style="border-radius: 50%;" alt="" class="img-fluid">
+                                <h4>Akramova Mavjuda Fayziyevna.</h4>
                             </div>
                             <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                                <h3><i class="fa fa-quote-left"></i>Samarqand shahar 66-maktab ma'naviy marifiy ishlar bo'yicha direktor o'rinbosari</h3>
                             </div>
                             <!-- end testi-meta -->
                         </div>
@@ -259,53 +257,15 @@
 
                         <div class="testimonial clearfix">
                             <div class="testi-meta">
-                                <img src="images/testi_03.png" alt="" class="img-fluid ">
-                                <h4>Venanda Mercy </h4>
+                                <img src="images/qwert.jpg" style="border-radius: 50%;" alt="" class="img-fluid ">
+                                <h4>Musokulova Saodat Xudoyberdiyevna.</h4>
                             </div>
                             <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                                <h3><i class="fa fa-quote-left"></i>Samarqand shahar 66-maktab o’quv ishlari bo’yicha direktor o'rinbosari </h3>
+                               
                             </div>
                             <!-- end testi-meta -->
                         </div>
-                        <!-- end testimonial -->
-                        <div class="testimonial clearfix">
-                            <div class="testi-meta">
-                                <img src="images/testi_01.png" alt="" class="img-fluid">
-                                <h4>James Fernando </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="testi-meta">
-                                <img src="images/testi_02.png" alt="" class="img-fluid">
-                                <h4>Jacques Philips </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="testi-meta">
-                                <img src="images/testi_03.png" alt="" class="img-fluid">
-                                <h4>Venanda Mercy </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div><!-- end testimonial -->
                     </div><!-- end carousel -->
                 </div><!-- end col -->
             </div><!-- end row -->

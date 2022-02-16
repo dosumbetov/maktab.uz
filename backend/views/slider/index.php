@@ -35,9 +35,9 @@ $this->params['breadcrumbs'][] = $this->title;
             'img',
             [
                 'class' => ActionColumn::className(),
-                'urlCreator' => function ($action, Slider $model, $key, $index, $column) {
-                    return Url::toRoute([$action, 'id' => $model->id]);
-                 }
+                // 'urlCreator' => function ($action, Slider $model, $key, $index, $column) {
+                //     return Url::toRoute([$action, 'id' => $model->id]);
+                //  }
             ],
         ],
     ]); ?>

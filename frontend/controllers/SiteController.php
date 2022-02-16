@@ -95,10 +95,12 @@ class SiteController extends Controller
      public function actionNews_event($id)
     {
         $news = News::find()->Where(['id'=>$id])->all();
+       $menu_title = MenuTitle::find()->Where(['menu_id'=>$id])->all();
         $news_right = News::find()->orderBy(['id'=>SORT_DESC])->all();
         return $this->render('news_event', [
             'news'=>$news,
             'news_right'=>$news_right,
+            'menu_title'=>$menu_title,
         ]);
     }
      public function actionNews_common($id)

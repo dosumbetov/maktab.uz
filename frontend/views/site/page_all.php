@@ -1,5 +1,6 @@
 
 <?
+use yii\bootstrap4\Breadcrumbs;
   use yii\helpers\Url;
   foreach ($menu_title as $menu_title_key) {
   	# code...
@@ -10,8 +11,15 @@
 
 ?>
 <div class="all-title-box">
-	<div class="container">
-		sad
+	<div class="container text-center">
+		<?
+            echo Breadcrumbs::widget([
+                'links' => [
+                    $this->title = $menu_title_key->name,
+                ],
+            ]); 
+          ?>
+		<h1><?=$menu_title_key->name?></h1>
 	</div>
 </div>
 
@@ -48,3 +56,43 @@
 	}
 </style>
 
+
+<style type="text/css">
+  .breadcrumb {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .breadcrumb .breadcrumb-item a {
+    color: white !important;
+  }
+  .breadcrumb .breadcrumb-item:hover a{
+    color: blue !important;
+  }
+  .breadcrumb-item::before {
+      float: left;
+      padding-right: 0.5rem;
+      color: white;
+      content: "/";
+  }
+  .breadcrumb-item.active {
+      color: white;
+      opacity: 0.6;
+  }
+   .heros {
+        width: 100%;
+        background: url("../../images/jpa.jpg");
+        position: relative;
+        padding: 120px 0 0 0;
+      }
+       .heros:after {
+        content: "";
+        position: absolute;
+          /*background-color: #0e14a2;*/
+          height: 100vh;
+          background-size: cover;
+          background-position: center;
+          z-index: 10;
+        }
+  }
+  }
+  }
+ </style>

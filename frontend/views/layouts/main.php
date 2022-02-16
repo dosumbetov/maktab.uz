@@ -10,6 +10,7 @@ use yii\bootstrap4\Html;
 use backend\models\Menu;
 use yii\helpers\Url;
 use backend\models\MenuTitle;
+use yii\bootstrap4\Breadcrumbs;
 // use yii\bootstrap4\Nav;
 // use yii\bootstrap4\NavBar;
 
@@ -47,21 +48,22 @@ AppAsset::register($this);
 
 
     <!-- LOADER -->
-    <div id="preloader">
+   <!--  <div id="preloader">
         <div class="loader-container">
             <div class="progress-br float shadow">
                 <div class="progress__item"></div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- END LOADER --> 
     
     <!-- Start header -->
     <header class="top-navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <!-- <img src="images/logo.png" alt="" /> -->
+                <a class="navbar-brand" href="<?=Url::home()?>">
+                    <img src="../images/66maktab.png" height="60px" alt="" />
+                    <span style="color: white;">66-Maktab</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"></span>
@@ -101,7 +103,9 @@ AppAsset::register($this);
         </nav>
     </header>
     <!-- End header -->
-    
+      <?= Breadcrumbs::widget([
+          'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+      ]) ?>
   <?=$content?>
 
     <div class="copyrights">
