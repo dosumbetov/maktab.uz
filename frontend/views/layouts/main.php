@@ -22,6 +22,9 @@ AppAsset::register($this);
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <link rel="shortcut icon" href="../images/66maktab.ico" type="image/x-icon">
+     <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <!-- Site CSS -->
     <!-- <link rel="stylesheet" href="style.css"> -->
