@@ -98,7 +98,6 @@ AppAsset::register($this);
                                 <?
                             }
                         ?>
-                        <li class="nav-item"><a class="nav-link" href="">Pricing</a></li>
                         <li class="nav-item"><a class="nav-link" href="<?=Url::to(["site/aloqa"])?>">Aloqa</a></li>
                     </ul>
                 </div>

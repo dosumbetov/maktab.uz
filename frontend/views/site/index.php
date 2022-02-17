@@ -41,47 +41,39 @@
     </style>
     <div id="overviews" class="section wb">
         <div class="container">
-            <div class="section-title row text-center">
-                <div class="col-md-8 offset-md-2">
-                    <h3>About</h3>
-                    <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem!</p>
-                </div>
-            </div><!-- end title -->
-        
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="message-box">
-                        <h4>2018 BEST SmartEDU education school</h4>
-                        <h2>Welcome to SmartEDU education school</h2>
-                        <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+                        <h3>Maktab taʼlimini rivojlantirish umumxalq harakatiga aylanishi zarur</h3>
+                        <p>Oʻzbekiston Respublikasi Prezidenti Shavkat Mirziyoyev raisligida 23-avgust kuni xalq taʼlimi tizimini rivojlantirish, pedagoglarning malakasi va jamiyatdagi nufuzini oshirish, yosh avlod maʼnaviyatini yuksaltirish masalalariga bagʻishlangan videoselektor yigʻilishi boʻlib oʻtdi.</p>
 
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis montes, nascetur ridiculus mus. Sed vitae rutrum neque. </p>
+                        <p>Davlatimiz rahbari prezidentlik faoliyatining dastlabki kunlaridan boshlab yurtimizda innovatsion va kreativ fikrlaydigan, zamonaviy kadrlar tayyorlash, yoshlarni vatanparvarlik ruhida, yuksak maʼnaviyat egalari etib tarbiyalash, shu maqsadda taʼlim tizimini takomillashtirish masalalariga alohida eʼtibor qaratib kelmoqda.</p>
 
-                        <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                        <a href="https://66.sammaktab.uz/site/news_event?id=13" class="hover-btn-new orange"><span>Batafsil</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
                 
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="post-media wow fadeIn">
-                        <img src="images/about_02.jpg" alt="" class="img-fluid img-rounded">
+                        <img src="images/1-chisi.jpg" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
             </div>
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="post-media wow fadeIn">
-                        <img src="images/about_03.jpg" alt="" class="img-fluid img-rounded">
+                        <img src="images/5-rasm.jpg" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
                 
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="message-box">
-                        <h2>The standard Lorem Ipsum passage, used since the 1500s</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h3>O‘zbekiston Respublikasi Prezidenti Shavkat Mirziyoyevning O‘qituvchi va murabbiylar kuniga bag‘ishlangan tantanali marosimdagi nutqi</h3>
+                        <p>Darhaqiqat, millionlab farzandlarimiz qalbiga ilm-fan ziyosini singdirib, ularni el-yurtga munosib insonlar etib tarbiyalayotgan zahmatkash va olijanob ustozlarimizga har qancha tahsinlar aytsak, arziydi.</p>
 
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum.</p>
+                        <p>Men bugun bildiradigan fikrlarni, avvalo, hurmatli muallim va o‘qituvchilarga, qadrli tarbiyachilarga, barcha jonkuyar ziyolilarimizga yo‘llangan murojaat sifatida qabul qilishingizni istardim.</p>
 
-                        <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                        <a href="https://66.sammaktab.uz/site/news_event?id=15" class="hover-btn-new orange"><span>Batafsil</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
                 
@@ -98,7 +90,7 @@
              <div class="section-title row text-center">
                 <div class="col-md-8 offset-md-2">
                     <h3><span style="color: #eea412">Yillik</span> Ko'rsatkich</h3>
-                    <p class="lead">Samarqand shahar 66-maktabnig yillik o'qishga kirish ko'rsatkichlari</p>
+                    <p class="lead">Samarqand shahar 66-maktabnig yillik ko'rsatkichlari</p>
                 </div>
             </div><!-- end title -->
             <div class="timeline">
@@ -232,7 +224,7 @@
                     <div class="testi-carousel owl-carousel owl-theme">
                         <div class="testimonial clearfix">
                             <div class="testi-meta">
-                                <img src="images/QWE.jpg" alt="" class="img-fluid" style="border-radius: 50px;">
+                                <img src="images/direc.jpg" alt="" class="img-fluid" style="border-radius: 50px;">
                                 <h4>Tuxtayeva Gulandom Dilmuratovna</h4>
                             </div>
                             <div class="desc">
