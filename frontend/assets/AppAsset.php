@@ -15,7 +15,7 @@ class AppAsset extends AssetBundle
         'css/site.css',
         '/css/bootstrap.min.css',
         '/css/style.css',
-        '/css/versions.css',
+        '../css/versions.css',
         '/css/responsive.css',
         '/css/custom.css',
         '/css/animate.css',

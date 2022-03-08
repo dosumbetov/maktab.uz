@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\models;
+namespace backend\modules\api\models;
 
 use Yii;
 
@@ -13,7 +13,7 @@ use Yii;
  */
 class History extends \yii\db\ActiveRecord
 {
-   
+     const SCENARIO_CREATE = 'create';
     /**
      * {@inheritdoc}
      */
@@ -33,7 +33,13 @@ class History extends \yii\db\ActiveRecord
             [['year'], 'string', 'max' => 255],
         ];
     }
-  
+
+    public function scenarios()
+    {
+        $scenarios = parent::scenarios();
+        $scenarios['create'] = ['year', 'text'];
+        return $scenarios;
+    }
 
     /**
      * {@inheritdoc}
