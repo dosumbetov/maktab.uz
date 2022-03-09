@@ -35,7 +35,7 @@ class HistoryController extends \yii\web\Controller
     	if (count($history)>0) {
     		return array('status'=>true, 'data'=>$history);
     	}else{
-    		return array('status'=>false, 'data'=>"No history found");
+    		return array('status'=>false, 'data'=>"No history found");	
     	}
     }
 
