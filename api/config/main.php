@@ -7,27 +7,28 @@ $params = array_merge(
 );
 
 return [
-    'id' => 'app-frontend',
+    'id' => 'app-api',
     'basePath' => dirname(__DIR__),
+    'controllerNamespace' => 'api\controllers',
     'bootstrap' => ['log'],
-    'controllerNamespace' => 'frontend\controllers',
+    'modules' => [],
     'components' => [
         'request' => [
-            'baseUrl'=>'',
-            'csrfParam' => '_csrf-frontend',
-            'parsers' => [
-                'application/json' => 'yii\web\JsonParser',
-            ],
+            'baseUrl'=>'/',
+            'csrfParam' => '_csrf-backend',
         ],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
-            'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
+            'identityCookie' => ['name' => '_identity-backend', 'httpOnly' => true],
         ],
-        'session' => [
-            // this is the name of the session cookie used for login on the frontend
-            'name' => 'advanced-frontend',
-        ],
+        /*'view' => [
+             'theme' => [
+                 'pathMap' => [
+                    '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+                 ],
+             ],
+        ],*/
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -37,26 +38,24 @@ return [
                 ],
             ],
         ],
-        'errorHandler' => [
-            'errorAction' => 'site/error',
-        ],
-        
-        // 'urlManager' => [
-        //     'enablePrettyUrl' => true,
-        //     'showScriptName' => false,
-        //     'rules' => [
-        //     ],
+        // 'errorHandler' => [
+        //     'errorAction' => 'site/error',
         // ],
-
+        
         'urlManager' => [
             'enablePrettyUrl' => true,
+            'enableStrictParsing' => false,
             'showScriptName' => false,
             'rules' => [
-                ['class' => 'yii\rest\UrlRule', 'controller' => 'history'],
+                [
+                    'class' => 'yii\rest\UrlRule', 
+                    'controller' => [
+                        'history'
+                    ]
+                ],
             ],
-        ],
+        ]
         
     ],
-
     'params' => $params,
 ];
